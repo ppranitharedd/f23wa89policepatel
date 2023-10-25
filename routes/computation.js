@@ -12,7 +12,7 @@ var num3 = 0;
 var num4 = 0;
 router.get('/', function (req, res, next) {
   num1 = Math.abs(rand1,rand2);
-  num2 = Math.acos(rand1);
+  num2 = Math.cos(rand1);
   num3 = Math.sinh(rand1);
   num4 = Math.sin(rand1);
 
